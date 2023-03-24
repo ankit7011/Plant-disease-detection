@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h4>Plant Disease Detection</h4>
+    <form
+      enctype="multipart/form-data"
+      action="http://127.0.0.1:5000/submitImage"
+      method="post"
+    >
+      <label for="img">Select defected plant image:</label>
+      <p><input type="text" name="plantName" /></p>
+      <p>
+        <input type="file" id="plantImage" name="plantImage" accept="image/*" />
+      </p>
+      <p><input type="submit" /></p>
+    </form>
+  </body>
+</html>
